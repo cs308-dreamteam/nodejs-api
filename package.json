@@ -1,0 +1,30 @@
+{
+  "name": "cs308back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.27",
+    "mysql2": "^3.6.1",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "spotify-web-api-node": "^5.0.2",
+    "uuid": "^9.0.1",
+    "xmysql": "^0.5.1"
+  },
+  "description": ""
+}
